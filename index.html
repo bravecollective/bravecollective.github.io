@@ -1,205 +1,236 @@
 <!doctype html>
 
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 
-    <head>
+<head>
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>Brave Collective: What's your fun per hour?</title>
+    <title>Brave Collective: What's your fun per hour?</title>
 
-        <meta name="description" content="The Brave Collective is EVE Online's original fun-per-hour newbie-focused alliance - join us today!">
-        <meta name="keywords" content="eve, eve online, ccp, brave, barve, brave collective, brave newbies, bni, brave dojo, bravenewbies, join brave">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="The Brave Collective is EVE Online's original fun-per-hour newbie-focused alliance - join us today!">
+    <meta name="keywords"
+          content="eve, eve online, ccp, brave, barve, brave collective, brave newbies, bni, brave dojo, bravenewbies, join brave">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
-        <link rel="stylesheet" href="c/bootstrap.min.css">
-        <link rel="stylesheet" href="c/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="c/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+    <link rel="stylesheet" href="c/bootstrap.min.css">
+    <link rel="stylesheet" href="c/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="c/main.css">
 
-        <script src="j/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="j/vendor/modernizr-2.8.3.min.js"></script>
 
-    </head>
+</head>
 
-    <body>
+<body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top brave-nav" role="navigation">
-
-        <div class="container">
-
-            <!-- Navigation toggle button for mobile -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <img src="i/logo.png" class="nav-logo">
-                <ul class="nav navbar-nav">
-                    <li><a href="https://brave-collective.slack.com/">Slack</a></li>
-                    <li><a href="https://forums.bravecollective.com/">Forums</a></li>
-                    <li><a href="https://wiki.bravecollective.com/">Wiki</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="https://mumble.bravecollective.com/">Mumble</a></li>
-                    <li><a href="https://timers.bravecollective.com/">Timers</a></li>
-                    <li><a href="https://ping.bravecollective.com/">Pings</a></li>
-                    <li><a href="https://account.bravecollective.com/">Core</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-    </nav>
-
-    <div class="brave-video">
-        <video loop muted autoplay poster="i/video-cover.jpg">
-            <source src="brave.webm" type="video/webm">
-            <source src="brave.mp4" type="video/mp4">
-        </video>
-        <div class="video-overlay"></div>
-        <img src="i/logo.png" class="mobile-logo">
-    </div>
+<nav class="navbar navbar-inverse navbar-fixed-top brave-nav" role="navigation">
 
     <div class="container">
 
-        <div class="row">
-
-            <div class="col-md-4 col-md-offset-4 text-center brave-join">
-                <a href="https://wiki.bravecollective.com/public:alliance:how-to-join" class="join-brave" target="_blank">Join Brave today</a>
-            </div>
-
-            <div class="col-md-12 text-center text-uppercase brave-strap">
-                <a href="#content" id="readmore">
-                    <p>What's your fun per hour?</p>
-                    <i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i>
-                </a>
-            </div>
-
+        <!-- Navigation toggle button for mobile -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
 
-        <div class="row brave-content-1" id="content">
-
-            <div class="col-md-4 col-md-offset-3 brave-info">
-                <h2 class="text-uppercase"><span class="brave-star" data-draw-line="l2:d7"></span>Hit the ground running on day one</h2>
-                <p>Jump straight into the most exciting and challenging parts of EVE Online — join us in fleet-based PVP as we fight for honor, wealth and territory.</p>
-            </div>
-
-            <div class="col-md-4 col-md-offset-1 brave-img" style="background-image: url(i/1.jpg);"></div>
-
+        <div class="collapse navbar-collapse" id="navbar">
+            <img src="i/logo.png" class="nav-logo">
+            <ul class="nav navbar-nav">
+                <li><a href="https://brave-collective.slack.com/">Slack</a></li>
+                <li><a href="https://forums.bravecollective.com/">Forums</a></li>
+                <li><a href="https://wiki.bravecollective.com/">Wiki</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://mumble.bravecollective.com/">Mumble</a></li>
+                <li><a href="https://timers.bravecollective.com/">Timers</a></li>
+                <li><a href="https://ping.bravecollective.com/">Pings</a></li>
+                <li><a href="https://account.bravecollective.com/">Core</a></li>
+            </ul>
         </div>
 
-        <div class="row brave-content-2">
+    </div>
 
-            <div class="col-md-4 col-md-push-6 brave-info">
-                <h2 class="text-uppercase">The original newbro alliance<span class="brave-star brave-star-right" data-draw-line="r3:u3"></span></h2>
-                <p>In 2013, Brave Newbies Inc. harnessed the power of new players at a never-before-seen scale, creating a model that has since been adopted by player corporations across the game.</p>
-            </div>
+</nav>
 
-            <div class="col-md-4 col-md-pull-4 brave-img" style="background-image: url(i/2.jpg);"></div>
+<div class="brave-video">
+    <video loop muted autoplay poster="i/video-cover.jpg">
+        <source src="brave.webm" type="video/webm">
+        <source src="brave.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    <img src="i/logo.png" class="mobile-logo">
+</div>
 
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-4 col-md-offset-4 text-center brave-join">
+            <a href="https://wiki.bravecollective.com/public:alliance:how-to-join"
+               class="join-brave" target="_blank">Join Brave today</a>
         </div>
 
-        <div class="row brave-content-3">
-
-            <div class="col-md-4 brave-info">
-                <h2 class="text-uppercase">Support and education<span class="brave-star brave-star-right" data-draw-line="r2:d8"></span></h2>
-                <p>Receive free skillbooks, ships and resources from our education department, The Brave Dojo — and learn the ropes from experienced players in our regular teaching fleets.</p>
-            </div>
-
-            <div class="col-md-4 col-md-offset-2 brave-img" style="background-image: url(i/3.jpg);"></div>
-
+        <div class="col-md-12 text-center text-uppercase brave-strap">
+            <a href="#content" id="readmore">
+                <p>What's your fun per hour?</p>
+                <i class="glyphicon glyphicon-chevron-down" aria-hidden="true"></i>
+            </a>
         </div>
 
-        <div class="row brave-content-4">
+    </div>
 
-            <div class="col-md-4 col-md-offset-3 col-md-push-6 brave-info">
-                <h2 class="text-uppercase"><span class="brave-star" data-draw-line="l1:u3"></span>Non-stop action</h2>
-                <p>Make your home in the most violent system in New Eden, where the fighting never stops. The Brave Armada, our 24/7 home defense fleet, will have your back — will you have theirs?</p>
-            </div>
+    <div class="row brave-content-1" id="content">
 
-            <div class="col-md-4 col-md-offset-1 col-md-pull-7 brave-img" style="background-image: url(i/4.jpg);"></div>
+        <div class="col-md-4 col-md-offset-3 brave-info">
+            <h2 class="text-uppercase">
+                    <span class="brave-star" data-draw-line="l2:d7">
 
+                    </span>Hit the ground running on day one
+            </h2>
+            <p>
+                Jump straight into the most exciting and challenging parts of EVE Online — join us in
+                fleet-based PVP as we fight for honor, wealth and territory.
+            </p>
         </div>
 
-        <div class="row brave-content-5">
+        <div class="col-md-4 col-md-offset-1 brave-img" style="background-image: url(i/1.jpg);"></div>
 
-            <div class="col-md-4 col-md-offset-2 brave-info">
-                <h2 class="text-uppercase">Craft your own destiny<span class="brave-star brave-star-right" data-draw-line="r4"></span></h2>
-                <p>In the sandbox of EVE Online, you can be whatever you choose. Brave Collective will help you achieve your dreams, with room and support for all playstyles, from backroom traders to diplomats and fleet commanders.</p>
-            </div>
+    </div>
 
-            <div class="col-md-4 col-md-offset-1 brave-img" style="background-image: url(i/5.jpg);"></div>
+    <div class="row brave-content-2">
 
+        <div class="col-md-4 col-md-push-6 brave-info">
+            <h2 class="text-uppercase">The original newbro alliance<span class="brave-star brave-star-right"
+                                                                         data-draw-line="r3:u3"></span></h2>
+            <p>In 2013, Brave Newbies Inc. harnessed the power of new players at a never-before-seen scale, creating a
+                model that has since been adopted by player corporations across the game.</p>
         </div>
 
-        <div class="row brave-content-6">
+        <div class="col-md-4 col-md-pull-4 brave-img" style="background-image: url(i/2.jpg);"></div>
 
-            <div class="col-md-4 col-md-offset-1 col-md-push-4 brave-info">
-                <h2 class="text-uppercase"><span class="brave-star" data-draw-line="l1:u3:l1"></span>An active worldwide community (US/EU/AU)</h2>
-                <p>Players drawn from around the world, supported by a comprehensive IT infrastructure including forums, wiki, voice chat and Slack channels.</p>
-            </div>
+    </div>
 
-            <div class="col-md-4 col-md-pull-5 brave-img" style="background-image: url(i/6.jpg);"></div>
+    <div class="row brave-content-3">
 
+        <div class="col-md-4 brave-info">
+            <h2 class="text-uppercase">Support and education<span class="brave-star brave-star-right"
+                                                                  data-draw-line="r2:d8"></span></h2>
+            <p>Receive free skillbooks, ships and resources from our education department, The Brave Dojo — and learn
+                the ropes from experienced players in our regular teaching fleets.</p>
         </div>
 
-        <div class="row brave-content-7">
+        <div class="col-md-4 col-md-offset-2 brave-img" style="background-image: url(i/3.jpg);"></div>
 
-            <div class="col-md-4 col-md-offset-1 brave-info">
-                <h2 class="text-uppercase">An alliance with principles<span class="brave-star brave-star-right" data-draw-line="r2:d8:r1"></span></h2>
-                <p>Welcoming, inclusive and classy, Brave is dedicated to helping players answer one simple question: <em>What's your fun-per-hour?</em></p>
-            </div>
+    </div>
 
-            <div class="col-md-4 col-md-offset-1 brave-img"  style="background-image: url(i/7.jpg);"></div>
+    <div class="row brave-content-4">
 
+        <div class="col-md-4 col-md-offset-3 col-md-push-6 brave-info">
+            <h2 class="text-uppercase"><span class="brave-star" data-draw-line="l1:u3"></span>Non-stop action</h2>
+            <p>Make your home in the most violent system in New Eden, where the fighting never stops. The Brave Armada,
+                our 24/7 home defense fleet, will have your back — will you have theirs?</p>
         </div>
 
-        <div class="row brave-footer">
-            <div class="col-md-4 col-md-offset-4 text-center">
-                Don't delay:
-                <a href="https://wiki.bravecollective.com/public:alliance:how-to-join" class="join-brave" target="_blank">Join Brave today</a>
-                <div class="brave-conditions">
-                    All applications require a full API.<br>For more information, join in-game chat "Brave Newbies"
-                </div>
-                <!--
-                <div class="brave-conditions">
-                    Want an extra long 21-day trial period? <a href="https://secure.eveonline.com/trial/?invc=65fb0c2e-50e0-4932-b92b-95f0525a4e00&action=buddy">Use this trial invite</a> to sign up!
-                </div>
-                -->
-            </div>
+        <div class="col-md-4 col-md-offset-1 col-md-pull-7 brave-img" style="background-image: url(i/4.jpg);"></div>
+
+    </div>
+
+    <div class="row brave-content-5">
+
+        <div class="col-md-4 col-md-offset-2 brave-info">
+            <h2 class="text-uppercase">Craft your own destiny<span class="brave-star brave-star-right"
+                                                                   data-draw-line="r4"></span></h2>
+            <p>In the sandbox of EVE Online, you can be whatever you choose. Brave Collective will help you achieve your
+                dreams, with room and support for all playstyles, from backroom traders to diplomats and fleet
+                commanders.</p>
         </div>
 
-    </div> <!-- /container -->
+        <div class="col-md-4 col-md-offset-1 brave-img" style="background-image: url(i/5.jpg);"></div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="j/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    </div>
 
-    <script src="j/vendor/bootstrap.min.js"></script>
-    <script src="j/main.js"></script>
+    <div class="row brave-content-6">
 
-    <script>
+        <div class="col-md-4 col-md-offset-1 col-md-push-4 brave-info">
+            <h2 class="text-uppercase"><span class="brave-star" data-draw-line="l1:u3:l1"></span>An active worldwide
+                community (US/EU/AU)</h2>
+            <p>Players drawn from around the world, supported by a comprehensive IT infrastructure including forums,
+                wiki, voice chat and Slack channels.</p>
+        </div>
 
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <div class="col-md-4 col-md-pull-5 brave-img" style="background-image: url(i/6.jpg);"></div>
 
-        ga('create', 'UA-86905847-1', 'auto');
-        ga('send', 'pageview');
+    </div>
 
-    </script>
+    <div class="row brave-content-7">
 
-    </body>
+        <div class="col-md-4 col-md-offset-1 brave-info">
+            <h2 class="text-uppercase">An alliance with principles<span class="brave-star brave-star-right"
+                                                                        data-draw-line="r2:d8:r1"></span></h2>
+            <p>Welcoming, inclusive and classy, Brave is dedicated to helping players answer one simple question: <em>What's
+                your fun-per-hour?</em></p>
+        </div>
+
+        <div class="col-md-4 col-md-offset-1 brave-img" style="background-image: url(i/7.jpg);"></div>
+
+    </div>
+
+    <div class="row brave-footer">
+        <div class="col-md-4 col-md-offset-4 text-center">
+            Don't delay:
+            <a href="https://wiki.bravecollective.com/public:alliance:how-to-join" class="join-brave" target="_blank">Join
+                Brave today</a>
+            <div class="brave-conditions">
+                All applications require a full API.<br>For more information, join in-game chat "Brave Newbies"
+            </div>
+            <!--
+            <div class="brave-conditions">
+                Want an extra long 21-day trial period? <a href="https://secure.eveonline.com/trial/?invc=65fb0c2e-50e0-4932-b92b-95f0525a4e00&action=buddy">Use this trial invite</a> to sign up!
+            </div>
+            -->
+        </div>
+    </div>
+
+</div> <!-- /container -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="j/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+<script src="j/vendor/bootstrap.min.js"></script>
+<script src="j/main.js"></script>
+
+<script>
+
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-86905847-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+</body>
 
 </html>
